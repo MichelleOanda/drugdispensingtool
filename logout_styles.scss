@@ -1,0 +1,29 @@
+/* Previous CSS code here */
+
+.logout {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logout p {
+  margin-bottom: 10px;
+}
+
+.logout-btn {
+  background-color: #dc3545; /* Change the background color to your preferred logout button color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn i {
+  margin-left: 5px;
+}
+
+.logout-btn:hover {
+  background-color: #c82333; /* Change the background color to your preferred hover color */
+}
