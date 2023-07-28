@@ -1,0 +1,29 @@
+/* Your CSS styles for the doctor's dashboard and other elements go here */
+
+.container {
+  padding: 20px;
+}
+
+.medication-refill {
+  margin-top: 20px;
+}
+
+.medication-refill h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #9d85f4;
+}
+
+th {
+  background-color: #f2f2f2;
+}

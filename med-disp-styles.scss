@@ -1,0 +1,81 @@
+/* Your CSS styles for the doctor's dashboard and other elements go here */
+
+.container {
+  padding: 20px;
+}
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading styles */
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Medication Dispensing Form styles */
+.dispensing-form {
+  margin-top: 30px;
+}
+
+.dispensing-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dispensing-form input[type="text"],
+.dispensing-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.dispensing-form textarea {
+  resize: vertical;
+}
+
+.dispensing-form input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dispensing-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Add additional styling as needed */
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
